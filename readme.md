@@ -45,7 +45,9 @@ The following code generates the training, test and validation dataset. WARNING:
        fileDataset["im2latex_validate.lst", False, 
         "formula_images/"]; // AbsoluteTiming
 
-We also pad the formula images in order to get images of the same size. This is to avoid distortion. The final training / validation / test data is `Dataset` ![enter image description here][1]
+We also pad the formula images in order to get images of the same size. This is to avoid distortion. The final training / validation / test data is `Dataset` 
+
+![enter image description here][1]
 
 which is nothing but a list of rules of the following form
 
