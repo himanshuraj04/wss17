@@ -71,7 +71,7 @@ where the encoder is a `NetChain` that consists of CNN interleaved with Pooling 
 
 ![enter image description here][4] 
 
-In this work we have been able to implement the first two stages of the algorithm and a slightly modified version of the third stage that cuts away the attention mechanism. We have trained the network on a 12 GB NVIDIA GPU. Training batch size is set to 16 due to the size limit of GPU memory. After 7 rounds the loss drops to 1.48. It is expected that on adding attention layer in the network, the loss should improve. 
+In this work we have been able to implement the first two stages of the algorithm and a slightly modified version of the third stage that cuts away the attention mechanism. We have trained the network on a 12 GB NVIDIA GPU. Training batch size is set to 16 due to the size limit of GPU memory. It is expected that on adding attention layer in the network, the training should improve.
 
 For original and previous work in this direction please refer to the following links
 
